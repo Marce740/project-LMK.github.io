@@ -1,22 +1,26 @@
 *{
     margin:0%;
-    padding: 0%;
+    padding:0%;
     font-family:"Jim Nightshade", serif;
-    background-color: black;
+    background-color: rgb(10, 7, 7);
+    text-align: center;
+
 }
 
 
-h1{
-    
-}
+
+
 
 /*NAV*/
 
 .nav-link:hover {
     color:red !important;
-
 }
 
 .nav-link{
     color:white !important;
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #780606 !important;
+  }
