@@ -17,3 +17,29 @@ p{
 h2{
     font-size: x-large;
 }
+
+.gradient{
+    background: linear-gradient(to right, black, white);
+}
+
+.fade{
+    height: 80px;
+    background-color: black;
+    color: white;
+    line-height: 100px;
+    transition: opacity 1s ease;
+    opacity: 1;
+}
+
+.fade:hover {
+    opacity: 0.3;
+}
+
+.zoom{
+    transition: transform 0.5s ease;
+    width: 600px;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}

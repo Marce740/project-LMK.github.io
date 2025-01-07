@@ -16,7 +16,7 @@
         <div class="row justify-content-center">
 
             <audio controls loop autoplay>
-                <source src="/audio/Chopin - Nocturne in C Sharp Minor (No. 20).mp3" type="audio/mp3">
+                <source src="/audio/Nocturne.mp3" type="audio/mp3">
             </audio>
         </div>
     </header>
@@ -26,16 +26,17 @@
         <aside class=" ">
             
             <ol class="navbar fixed-bottom bg-white">
-                <li>The Raven</li>
-                <li>Annabel Lee</li>
-                <li>To The River</li>
-                <a href="#top"><li>Back Top</li></a>
+                <li><a href="#Raven">The Raven</a></li>
+                <li><a href="#Annabel">Annabel Lee</a></li>
+                <li><a href="#River">To The River</a></li>
+                <li><a href="#">Back Top</a></li>
+                <li><a href="index.html">Home</a></li>
             </ol>
        
         </aside>
 
         <main class="col-10 m-5">
-            <h2>The Raven</h2>
+            <h2 id="Raven">The Raven</h2>
             <a href="https://poestories.com/read/raven"><img src="/images/raven.jpg" alt="raven"></a>
             <br><br>
 
@@ -47,8 +48,8 @@
 
             <br>
 
-            <h2>Annabel Lee</h2>
-            <a href="https://poestories.com/read/annabellee"><img src="/images/Annabel Lee.jpg" alt="Annabel"></a>
+            <h2 id="Annabel">Annabel Lee</h2>
+            <a href="https://poestories.com/read/annabellee"><img src="/images/Annabel_Lee.jpg" alt="Annabel"></a>
             
             <br><br>
             
@@ -62,7 +63,7 @@
             
             <br>
 
-            <h2>To The River</h2>
+            <h2 id="River">To The River</h2>
 
             <a href="https://poestories.com/read/totheriver"><img src="/images/River.jpg" alt="river"></a>
 
@@ -78,7 +79,7 @@
 
             <br>
             <h1>Form</h1>
-            <form class="col=12">
+            <form class="col=12" action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
             <div class="mb-3 mt-3">
                 <label for="name" class="form-label">Name:</label>
                 <input type="text" class="form-control" id="name" name="name" required>
@@ -131,16 +132,12 @@
 
     </div>    
 
-    
-
-
 
     
 
-    <footer class="col-12">
-        <a href="index.html">
-            <button> Back Home</button>
-        </a>
+    <footer class>
+        <a href="index.html">Back Home</a>
+        <div>Marcella Salas Prado ©</div>
     </footer>
 
 </body>
